@@ -35,7 +35,7 @@ Since Docker Desktop turned “Expose daemon on tcp://localhost:2375 without TLS
 
 Copy breweries.csv to the namenode.
 ```
-  docker cp breweries.csv namenode:breweries.csv
+  docker cp breweries.csv namenode:breweries.csv 
 ```
 
 Go to the bash shell on the namenode with that same Container ID of the namenode.
